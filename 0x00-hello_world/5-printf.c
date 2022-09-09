@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * using the function printf
+ * main - print the string in the printf function
  *
- * return: 0
- * compile with -gcc
+ * Description: using the main function
+ * this program prints with proper grammar, but the outcome is a piece of art,
+ * Return: 0
  */
 int main(void)
 {
