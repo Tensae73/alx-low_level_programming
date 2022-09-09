@@ -1,6 +1,8 @@
 #include <stdio.h>
+
 /**
  * puts
+ *
  * printf
  * return 0
  */
