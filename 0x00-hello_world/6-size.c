@@ -9,16 +9,16 @@
  */
 int main(void)
 {
-	char c;
-        int d;
-        long cd;
-        long long cdd;
-        float f;
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
 	
-	printf("Size of a char: %ld byts(s)\n", sizeof(c));
-        printf("Size of an int: %ld byte(s)\n", sizeof(d));
-        printf("Size of lond int: %ld byte(s)\n", sizeof(cd));
-        printf("Size of a long long int: %ld byte(s)\n", sizeof(cdd));
-        printf("Size of a float: %ld byte(s)\n", sizeof(f));
-        return (0);
+	printf("Size of a char: %lu byts(s)\n", (unsigned long)sizeof(d));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of lond int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	return (0);
 }
