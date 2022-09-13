@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - function to print abc
- * 
+ *
  * Description: using the main function and print_alphabet function
  * this program prints "abcdefghijklmnopqrstuvwxyz
  * Return: Always 0.
