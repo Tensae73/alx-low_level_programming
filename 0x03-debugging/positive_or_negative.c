@@ -4,7 +4,7 @@
 
 /**
  * positive_or_negative - this function to test positive or negative
- *
+ * @i: integer
  * Return: 0
  */
 void positive_or_negative(int i)
