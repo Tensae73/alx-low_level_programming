@@ -2,9 +2,9 @@
 #define MAIN_H
 
 /**
- * main - header file for prototypes
- * void prototypes (void)
- * int prototypes (int)
+ * main - header file for phototypes
+ * void phototypes (void)
+ * int phototypes (int)
  */
 
 void print_numbers(void);
@@ -19,5 +19,6 @@ int _putchar(char);
 int _isupper(int);
 int _isdigit(int);
 int mul(int, int);
+void fizz_buzz(void);
 
 #endif /* MAIN_H */
